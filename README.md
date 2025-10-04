@@ -34,7 +34,7 @@ Proyek ini dirancang sebagai website sederhana untuk perusahaan dengan fokus pad
 - **Validasi Input**: Form validasi lengkap untuk mencegah data invalid (misalnya, email format, ukuran file gambar).
 - **Upload Gambar**: Dukungan upload file untuk produk dan profil, disimpan di storage Laravel.
 - **Search dan Filter**: Pencarian sederhana di dashboard untuk data produk dan kontak.
-- **Responsive Design**: Menggunakan Bootstrap 5 untuk tampilan yang adaptif di berbagai perangkat.
+- **Responsive Design**: Menggunakan Tailwind untuk tampilan yang adaptif di berbagai perangkat.
 - **Error Handling**: Penanganan error global dengan logging ke file.
 - **Optimasi Dasar**: Caching route dan query untuk performa lebih baik.
   
@@ -51,17 +51,9 @@ Proyek ini dikerjakan oleh 4 orang dengan pembagian tugas sebagai berikut:
 ## Versi Tools dan Dependencies
 Proyek ini dibangun menggunakan stack teknologi berikut:
 
-- **Laravel**: Versi 10.48.18
+- **Laravel**: Versi 12.32.5
 - **PHP**: Versi 8.2.12
-- **Database**: MySQL 8.0 atau MariaDB 10.11
-- **Composer**: Versi 2.7.1 (untuk dependency management) 
-- **Node.js/NPM**: Versi 20.10.0 / 10.2.4 (untuk asset compilation dengan Vite)
-- **Git**: Versi 2.42.0
-- **Server**: Nginx/Apache dengan PHP-FPM
-- **Dependencies Utama**:
-  - Laravel Breeze (untuk autentikasi)
-  - Bootstrap 5.3 (untuk styling)
-  - jQuery 3.7.1 (untuk interaktivitas frontend)
+- **Composer**: Versi  2.8.1 
 
 Pastikan versi tools Anda sesuai untuk menghindari konflik.
 
