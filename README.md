@@ -38,6 +38,21 @@ Proyek ini dirancang sebagai website sederhana untuk perusahaan dengan fokus pad
 - **Error Handling**: Penanganan error global dengan logging ke file.
 - **Optimasi Dasar**: Caching route dan query untuk performa lebih baik.
   
+
+
+### CATATAN PENTING
+1. ERROR ENV BELUM ADA
+- Copy file .env.example ke .env
+- php artisan key:generate
+
+2. ERROR DATABSE.SQLITE
+- jalankan perintah terminal
+type nul > database\database.sqlite
+- php artisan migrate
+
+
+
+
 ## Anggota Tim
 Proyek ini dikerjakan oleh 4 orang dengan pembagian tugas sebagai berikut:
 
